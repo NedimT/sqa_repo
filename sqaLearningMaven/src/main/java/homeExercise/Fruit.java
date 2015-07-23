@@ -8,7 +8,7 @@ public class Fruit {
     public Fruit(){
     	
     }
-    public final String getSource(){
+    public String getSource(){
     	System.out.println("in Fruit getSource()");
     	return originCountry;
     }

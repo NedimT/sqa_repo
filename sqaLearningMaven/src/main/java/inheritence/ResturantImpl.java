@@ -13,21 +13,19 @@ public class ResturantImpl implements IBusiness{
 		//else return true;
 		return true;	
 	}
-//	
-//	
+
 	public String getContactInfo(){
 		return "myname@email.com";
 	}	
-//	
-//	
+	
 	public int getCapacity(){
 		return 200;
 	}
-//	
+	
 	public String getMenu(boolean isVeg){
-		//if currtime is b/w 7-10 a.m
-		//return breakfast;
-		//else if //current time is noon
+	//if currtime is b/w 7-10 a.m
+	//return breakfast;
+	//else if //current time is noon
 	//return "lunch"
 	//else //return dinner;
 			return "breakfast, lunch, dinner";	

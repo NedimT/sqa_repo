@@ -22,9 +22,6 @@ public class Vehicle {
     	System.out.println("Vehicle color is : "+vehicleObject.getColor());
     	System.out.println("Vehicle make is : "+vehicleObject.getMake());
     	System.out.println("Vehicle model is  :"+vehicleObject.getModel());
-//    	System.out.println("Vehicle color is :"+getColor());
-//    	System.out.println("Vehicle make is :"+getMake());
-//    	System.out.println("Vehicle model is :"+getModel());
     }
 	public String getColor() {
 		return color;

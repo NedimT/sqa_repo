@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>					
+			<class name="testNg.TestingTestNgLifeCycle" />
+			<class name="testNg.CalculatorTestNg" />			
+		</classes>
+	</test>
+	<test name="Test1">
+		<parameter name="myName" value="Robert"/> 
+		<classes>
+	    		<class name="testNg.ParameterizedTest1" />
+	    		<class name="testNg.ParamTestWithDataProvider1"/>	    		
+	    </classes>
+	</test>			
+</suite>
+<!-- package test -->
+<!-- <suite name="Suite" parallel="tests" thread-count="2">
+	<test name="Test">
+		<parameter name="myName" value="Robert"/>
+		<packages>
+			<package name="testNg.*"/>												
+		</packages>		
+	</test>			
+</suite> -->
+	<!--  Group test simple -->
+<!-- <suite name="Suite1">
+	<test name="test1">
+		<groups>
+			<run>
+				<include name="functest" />
+			</run>
+		</groups>
+		<packages>
+			<package name="testNg.*"/>												
+		</packages> 
+		<classes>
+			<class name="testNg.GroupTestExample" />
+			<class name="testNg.TestMessage1"/>
+		</classes> 
+	</test>
+</suite>-->
+<!--  Groups of groups -->
+<!-- <suite name="Suite1" parallel="classes" thread-count="10">
+	<test name="test1">
+		<groups>
+			<define name="all">
+				<include name="functest" />
+				<include name="checkintest" />				
+			</define>			
+			<run>
+				<include name="all" />								
+			</run>
+		</groups>
+		<packages>
+			<package name="testNg.*"/>
+			<package name="testNg2.*"/>
+		</packages>		
+		<classes>
+			<class name="testNg.GroupTestExample" />
+		</classes>
+	</test>
+</suite> -->
+<!-- <suite name="Suite" parallel="classes" thread-count="5">
+	<test name="Test">		
+		<classes>
+			<class name="testNg2.FruitTest" />
+			<class name="testNg.TestNGSimpleTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="name1" value="Robert"/>
+		<parameter name="name2" value="David"/>
+		<classes>
+			<class name="testNg.ParamTestWithDataProvider1" />
+			<class name="testNg.ParameterizedTest1" />			
+			<class name="testNg.TestingTestNgLifeCycle" />
+		</classes>
+	</test>	
+</suite> -->
+
+<!-- <suite name="Suite" parallel="tests" thread-count="5">
+	<test name="Test">		
+		<classes>
+			<class name="testNg2.FruitTest" />
+			<class name="testNg.TestNGSimpleTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="name1" value="Robert"/>
+		<parameter name="name2" value="David"/>
+		<classes>
+			<class name="testNg.ParamTestWithDataProvider1" />
+			<class name="testNg.ParameterizedTest1" />			
+			<class name="testNg.TestingTestNgLifeCycle" />
+		</classes>
+	</test>	
+</suite> -->
+<!-- <suite name="Suite" parallel="instances" thread-count="5">
+	<test name="Test">		
+		<classes>
+			<class name="testNg2.FruitTest" />
+			<class name="testNg.TestNGSimpleTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="name1" value="Robert"/>
+		<parameter name="name2" value="David"/>
+		<classes>
+			<class name="testNg.ParamTestWithDataProvider1" />
+			<class name="testNg.ParameterizedTest1" />			
+			<class name="testNg.TestingTestNgLifeCycle" />
+		</classes>
+	</test>	
+</suite> -->

@@ -1,0 +1,1 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite thread-count="5" name="TrialTestM">	<test name="ConfigurationTest">		<classes>			<class name="TestNG.TestGroupDependsMethond">				<methods>					<include name="method1" />					<exclude name="method2" />				</methods>			</class>		</classes>	</test></suite>

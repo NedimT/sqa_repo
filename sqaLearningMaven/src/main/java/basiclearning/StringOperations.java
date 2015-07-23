@@ -1,6 +1,6 @@
 package basiclearning;
 
-public class StrinOperations {
+public class StringOperations {
     public static void main(String args[]){
     	
     
@@ -22,15 +22,7 @@ public class StrinOperations {
     	String nonVowelStr = "tcdfgh";
     	//checkVowel(vowelStr.length());
     } 	
-//    	public static boolean checkvowel(String vowelStr){
-//    		int length = vowelStr.length();
-//    	
-//    		if(length + vowelStr.indexOf('a') + vowelStr.indexOf('e') + 
-//    				vowelStr.indexOf('i') + vowelStr.indexOf('o') +
-//    				vowelStr.indexOf('u') > 0) {
-//    					System.out.println(" got a vowel");
-//    		}
-//    	}
+
     	
     	
 }

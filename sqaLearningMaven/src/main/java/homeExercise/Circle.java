@@ -10,7 +10,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 	}
 	
-		//public double getArea(double radius){
+	//public double getArea(double radius){
 	public double getArea(){
     	double area =0;
     	area = radius*radius*3.14;

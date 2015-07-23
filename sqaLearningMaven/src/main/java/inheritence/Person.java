@@ -19,7 +19,7 @@ public class Person {
     	this.gender = gender;
     	this.age = age;
     	this.name = name;
-    	//this.socialId = minAge;
+    	
     }
     public void printSocialId(){
     	

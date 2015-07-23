@@ -4,7 +4,7 @@ public class Calculator {
 	public int a;
 	public int b;
 	
-    Calculator(){
+    public Calculator(){
     	this.a = 0;
     	this.b = 0;
     }

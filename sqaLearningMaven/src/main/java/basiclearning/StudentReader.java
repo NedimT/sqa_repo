@@ -11,10 +11,8 @@ public class StudentReader {
 		String[] strArray = new String[5];
         Properties props = readStudentProperties("C:\\sqa_space\\sqaLearningMaven\\studentInfo.properties");
         for(String str :strArray){
-        //while(props.getProperty("i") != Null){
-        	System.out.println(props.getProperty(str));
+            System.out.println(props.getProperty(str));
         	str = props.getProperty(str);
-        	//i++;
         }
         System.out.println(props.getProperty("1"));
         System.out.println(props.getProperty("2"));
